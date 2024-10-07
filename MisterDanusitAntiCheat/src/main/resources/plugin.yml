@@ -1,0 +1,14 @@
+name: MisterDanusitAntiCheat
+version: 1.1
+main: com.misterdanusit.anticheat.MisterDanusitAntiCheat
+author: MisterDanusit
+description: A simple anti-cheat plugin for detecting basic hacks.
+api-version: 1.21
+commands:
+  anticheatreload:
+    description: Reloads the configuration file.
+    permission: anticheat.reload
+permissions:
+  anticheat.reload:
+    description: Allows reloading of the plugin configuration.
+    default: op
